@@ -1,17 +1,16 @@
-# Python  Projects
-# Project Zero: A template for other projects
+# Python Projects
+# Project: A template for Data Acquisition projects
 
 [build-system]
 requires = ["setuptools", "wheel"]  # PEP 508 specifications.
-build-backend = "setuptools.build_meta"
 
 [project]
-name = "project_0"
+name = "project_1_1"
 version = "1.0.0"
 authors = [
-    {name = "Osvaldo Furtado", email = "schurings@hotmail.com"},
+    {name = "Author", email = "author@email.com"},
 ]
-description = "Python Projects -- Project 0."
+description = "Real-World Python Projects -- Project 1.1."
 readme = "README.md"
 requires-python = ">=3.11"
 classifiers = [
@@ -35,18 +34,3 @@ test = [
     "tox==4.9.0",
     "behave==1.2.6"
 ]
-
-lint = [
-    "mypy",
-    "flake8",
-    "black",
-    "isort"
-]
-
-[tool.black]
-line-length = 88
-target-version = ['py311']
-
-[tool.isort]
-profile = "black"
-line_length = 88
