@@ -27,11 +27,12 @@ EXTRACT_CLASS: type[Extract] = Extract
 BUILDER_CLASSES: list[type[PairBuilder]] = [Series1Pair, Series2Pair, Series3Pair, Series4Pair]
 
 def main(argv: list[str]) -> None:
-    builders = [cls() for vls in BUILDER_CLASSES]
+    builders = [cls() for cls in BUILDER_CLASSES]
     extractor = EXTRACT_CLASS(builders)
     # etc.
 
     options = get_options(argv)
+    options.output.mkdir(parents=True, exist_ok=True)
 
     targets = [
         options.output / "Series_1.ndjson",
@@ -52,4 +53,4 @@ def main(argv: list[str]) -> None:
         target.close()
 
 if __name__ == "__main__":
-    main()
+    main(sys.argv[1:])
