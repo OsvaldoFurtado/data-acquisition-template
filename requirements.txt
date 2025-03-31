@@ -6,6 +6,8 @@
 #
 alabaster==0.7.16
     # via sphinx
+astroid==3.3.9
+    # via pylint
 babel==2.17.0
     # via sphinx
 behave==1.2.6
@@ -24,6 +26,8 @@ click==8.1.8
     # via pip-tools
 colorama==0.4.6
     # via tox
+dill==0.3.9
+    # via pylint
 distlib==0.3.9
     # via virtualenv
 docutils==0.20.1
@@ -38,10 +42,14 @@ imagesize==1.4.1
     # via sphinx
 iniconfig==2.1.0
     # via pytest
+isort==6.0.1
+    # via pylint
 jinja2==3.1.6
     # via sphinx
 markupsafe==3.0.2
     # via jinja2
+mccabe==0.7.0
+    # via pylint
 packaging==24.2
     # via
     #   build
@@ -59,6 +67,7 @@ pip-tools==7.3.0
     # via project_1_1 (pyproject.toml)
 platformdirs==4.3.7
     # via
+    #   pylint
     #   tox
     #   virtualenv
 pluggy==1.5.0
@@ -67,6 +76,8 @@ pluggy==1.5.0
     #   tox
 pygments==2.19.1
     # via sphinx
+pylint==3.3.6
+    # via project_1_1 (pyproject.toml)
 pyproject-api==1.9.0
     # via tox
 pyproject-hooks==1.2.0
@@ -99,6 +110,8 @@ sphinxcontrib-qthelp==2.0.0
     # via sphinx
 sphinxcontrib-serializinghtml==2.0.0
     # via sphinx
+tomlkit==0.13.2
+    # via pylint
 tox==4.9.0
     # via project_1_1 (pyproject.toml)
 urllib3==2.3.0

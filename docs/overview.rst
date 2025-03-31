@@ -4,7 +4,10 @@
 Overview
 ########
 
-A command-line application (CLI) that extracts relevant data from files in CSV format. The App restructure the raw data
+This project is a Python application that extracts data from CSV file and transform into structured format for further analysis.
+
+
+Using command-line application (CLI) the app extracts relevant data from files in CSV format. The App restructure the raw data
 into a more useful form. 
 The final CLI command to run the app is the following: 
 

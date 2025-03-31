@@ -1,8 +1,9 @@
 ..  Python Projects -- Data Acquisition template project 
 
-####
-API
-####
+API Reference
+=============
 
-..  automodule:: hello_world
-    :members:
+.. automodule:: acquire
+   :members:
+   :undoc-members:
+   :show-inheritance:

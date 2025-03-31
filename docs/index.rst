@@ -10,6 +10,9 @@ Welcome to Data Acquisition project's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   overview
+   api
+   design
 
 
 Indices and tables
