@@ -1,5 +1,5 @@
 """
-Python Projects
+
 Project: A template for Data Acquisition projects
 
 """

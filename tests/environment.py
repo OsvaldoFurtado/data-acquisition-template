@@ -1,6 +1,7 @@
 """
-Python Projects
+
 Project Zero: A template for other projects
+
 """
 
 # This is empty.
