@@ -1,4 +1,4 @@
-..  Python Projects -- Project Zero: A template for other projects
+..  Python Projects -- Data Acquisition template project 
 
 ####
 API
