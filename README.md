@@ -1,1 +1,1 @@
-# python-project-template
+# data-acquisition-template
